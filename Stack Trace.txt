@@ -1,0 +1,393 @@
+ch.ivyteam.ivy.service.ServiceException: There was an unspecific error.
+Test 
+ Error Id: 18B8F5CEEF8FB2FE
+
+ Context: request=/designer/faces/instances/Project$1/18B8F5CE5F5E85E2/Order/Order.xhtml, session=1 USER_IT, securityContext=default, task=29, application=designer, requestId=1486, executionContext=SYSTEM, pmv=designer$Project$1, client=0:0:0:0:0:0:0:1, hd=ch.ivy.addon.portalkit.multiapp.settings.LogoutSetting
+
+at IvyProjectClassLoader [pmv=designer$portal$1,generation=5]//ch.ivy.addon.portalkit.service.IvyAdapterService.executeCallableAsSystem(IvyAdapterService.java:41)
+
+at IvyProjectClassLoader [pmv=designer$portal$1,generation=5]//ch.ivy.addon.portalkit.service.IvyAdapterService.startSubProcess(IvyAdapterService.java:61)
+
+at IvyProjectClassLoader [pmv=designer$portal$1,generation=5]//ch.ivy.addon.portal.generic.bean.UserMenuBean.getCustomizedLogoutPage(UserMenuBean.java:294)
+
+at IvyProjectClassLoader [pmv=designer$portal$1,generation=5]//ch.ivy.addon.portal.generic.bean.UserMenuBean.getLogoutPage(UserMenuBean.java:129)
+
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+at javax.el.BeanELResolver.getValue(BeanELResolver.java:95)
+
+at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:62)
+
+at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+
+at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+
+at ch.ivyteam.ivy.dialog.execution.jsf.controller.el.CompositeComponentAwareValueExpression.getValue(CompositeComponentAwareValueExpression.java:68)
+
+at org.apache.myfaces.view.facelets.el.ELText$ELTextVariable.writeText(ELText.java:219)
+
+at org.apache.myfaces.view.facelets.el.ELText$ELTextComposite.writeText(ELText.java:131)
+
+at org.apache.myfaces.view.facelets.compiler.TextInstruction.write(TextInstruction.java:45)
+
+at org.apache.myfaces.view.facelets.compiler.UIInstructions.encodeBegin(UIInstructions.java:46)
+
+at org.apache.myfaces.view.facelets.compiler.UILeaf.encodeAll(UILeaf.java:507)
+
+at javax.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:551)
+
+at org.apache.myfaces.renderkit.html.HtmlCompositeComponentRenderer.encodeChildren(HtmlCompositeComponentRenderer.java:66)
+
+at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:644)
+
+at javax.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:542)
+
+at org.apache.myfaces.shared.renderkit.RendererUtils.renderChildren(RendererUtils.java:688)
+
+at org.apache.myfaces.view.facelets.component.JsfElementRenderer.encodeChildren(JsfElementRenderer.java:124)
+
+at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:644)
+
+at javax.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:542)
+
+at org.apache.myfaces.shared.renderkit.RendererUtils.renderChildren(RendererUtils.java:688)
+
+at org.apache.myfaces.shared.renderkit.html.HtmlGroupRendererBase.encodeEnd(HtmlGroupRendererBase.java:150)
+
+at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:675)
+
+at javax.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:555)
+
+at org.apache.myfaces.shared.renderkit.RendererUtils.renderChildren(RendererUtils.java:688)
+
+at org.apache.myfaces.shared.renderkit.html.HtmlGroupRendererBase.encodeEnd(HtmlGroupRendererBase.java:150)
+
+at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:675)
+
+at javax.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:555)
+
+at javax.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:551)
+
+at javax.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:551)
+
+at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1891)
+
+at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:313)
+
+at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+
+at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:121)
+
+at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:267)
+
+at javax.faces.webapp.FacesServlet.service(FacesServlet.java:200)
+
+at ch.ivyteam.ivy.webserver.restricted.jsf.IvyFacesServlet.service(IvyFacesServlet.java:35)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.ivy.webserver.restricted.jsf.IvyRestServiceFilter.doFilter(IvyRestServiceFilter.java:52)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.ivy.webserver.restricted.jsf.IvyFacesFilter.lambda$0(IvyFacesFilter.java:62)
+
+at ch.ivyteam.util.callable.IExecutionContext.lambda$0(IExecutionContext.java:28)
+
+at ch.ivyteam.util.callable.AbstractExecutionContext.callInContext(AbstractExecutionContext.java:10)
+
+at ch.ivyteam.ivy.request.impl.RequestResponseContext.lambda$0(RequestResponseContext.java:21)
+
+at ch.ivyteam.util.callable.AbstractExecutionContext.callInContext(AbstractExecutionContext.java:10)
+
+at ch.ivyteam.ivy.request.impl.RequestResponseContext.callInContext(RequestResponseContext.java:20)
+
+at ch.ivyteam.util.callable.IExecutionContext.executeInContext(IExecutionContext.java:27)
+
+at ch.ivyteam.ivy.webserver.restricted.jsf.IvyFacesFilter.chainDialogRequest(IvyFacesFilter.java:60)
+
+at ch.ivyteam.ivy.webserver.restricted.jsf.IvyFacesFilter.doFilter(IvyFacesFilter.java:42)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.util.callable.IExecutionContext.lambda$0(IExecutionContext.java:28)
+
+at ch.ivyteam.util.callable.AbstractExecutionContext.callInContext(AbstractExecutionContext.java:10)
+
+at ch.ivyteam.util.callable.IExecutionContext.executeInContext(IExecutionContext.java:27)
+
+at ch.ivyteam.ivy.webserver.internal.filter.ProcessModelVersionFilter.doFilter(ProcessModelVersionFilter.java:33)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.ivy.webserver.internal.filter.IvyFacesNoChacheHeaderFilter.doFilter(IvyFacesNoChacheHeaderFilter.java:10)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.ivy.webserver.restricted.jsf.ConsumeNextPathFilter.doFilter(ConsumeNextPathFilter.java:12)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.util.callable.IExecutionContext.lambda$0(IExecutionContext.java:28)
+
+at ch.ivyteam.util.callable.AbstractExecutionContext.callInContext(AbstractExecutionContext.java:10)
+
+at ch.ivyteam.util.callable.IExecutionContext.executeInContext(IExecutionContext.java:27)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractIvySessionFilter.executeInSessionContext(AbstractIvySessionFilter.java:33)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractIvySessionFilter.doFilter(AbstractIvySessionFilter.java:19)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:115)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.util.callable.IExecutionContext.lambda$0(IExecutionContext.java:28)
+
+at ch.ivyteam.util.callable.AbstractExecutionContext.callInContext(AbstractExecutionContext.java:10)
+
+at ch.ivyteam.util.callable.IExecutionContext.executeInContext(IExecutionContext.java:27)
+
+at ch.ivyteam.ivy.webserver.internal.filter.SecurityContextFilter.doFilter(SecurityContextFilter.java:31)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.util.callable.IExecutionContext.lambda$0(IExecutionContext.java:28)
+
+at ch.ivyteam.util.callable.AbstractExecutionContext.callInContext(AbstractExecutionContext.java:10)
+
+at ch.ivyteam.util.callable.IExecutionContext.executeInContext(IExecutionContext.java:27)
+
+at ch.ivyteam.ivy.webserver.internal.filter.ApplicationFilter.doFilter(ApplicationFilter.java:42)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.ivy.webserver.internal.exception.ExceptionFilter.doFilter(ExceptionFilter.java:45)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.ivy.webserver.internal.startup.IvyEngineUnavailableFilter.doFilter(IvyEngineUnavailableFilter.java:24)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.util.callable.IExecutionContext.lambda$0(IExecutionContext.java:28)
+
+at ch.ivyteam.util.callable.AbstractExecutionContext.callInContext(AbstractExecutionContext.java:10)
+
+at ch.ivyteam.util.callable.IExecutionContext.executeInContext(IExecutionContext.java:27)
+
+at ch.ivyteam.ivy.webserver.internal.filter.RemoteClientFilter.doFilter(RemoteClientFilter.java:16)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.util.callable.IExecutionContext.lambda$0(IExecutionContext.java:28)
+
+at ch.ivyteam.util.callable.AbstractExecutionContext.callInContext(AbstractExecutionContext.java:10)
+
+at ch.ivyteam.util.callable.IExecutionContext.executeInContext(IExecutionContext.java:27)
+
+at ch.ivyteam.ivy.webserver.internal.filter.IvyCurrentHttpRequestFilter.doFilter(IvyCurrentHttpRequestFilter.java:11)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.util.callable.IExecutionContext.lambda$0(IExecutionContext.java:28)
+
+at ch.ivyteam.util.callable.AbstractExecutionContext.callInContext(AbstractExecutionContext.java:10)
+
+at ch.ivyteam.util.callable.IExecutionContext.executeInContext(IExecutionContext.java:27)
+
+at ch.ivyteam.ivy.security.exec.Sudo.execute(Sudo.java:111)
+
+at ch.ivyteam.ivy.webserver.internal.filter.IvyExecuteAsSystemFilter.doFilter(IvyExecuteAsSystemFilter.java:9)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at ch.ivyteam.ivy.webserver.internal.filter.FilterChain.next(FilterChain.java:29)
+
+at ch.ivyteam.ivy.webserver.internal.PerformanceLogFilter.doLog(PerformanceLogFilter.java:61)
+
+at ch.ivyteam.ivy.webserver.internal.PerformanceLogFilter.doFilter(PerformanceLogFilter.java:47)
+
+at ch.ivyteam.ivy.webserver.internal.filter.AbstractFilter.doFilter(AbstractFilter.java:36)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:927)
+
+at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:984)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:89)
+
+at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:121)
+
+at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:133)
+
+at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+
+at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+
+at java.base/java.lang.Thread.run(Thread.java:833)
+
+Caused by: ch.ivyteam.ivy.service.ServiceException: Unable to execute subprocess.
+
+ Error Id: 18B8F5CEEF8FB2FE
+
+ Context: request=/designer/faces/instances/Project$1/18B8F5CE5F5E85E2/Order/Order.xhtml, session=1 USER_IT, securityContext=default, task=29, application=designer, requestId=1486, executionContext=SYSTEM, pmv=designer$Project$1, client=0:0:0:0:0:0:0:1, hd=ch.ivy.addon.portalkit.multiapp.settings.LogoutSetting
+
+at IvyProjectClassLoader [pmv=designer$portal$1,generation=5]//ch.ivy.addon.portalkit.service.IvyAdapterService$SubProcessCallerCallable.call(IvyAdapterService.java:138)
+
+at IvyProjectClassLoader [pmv=designer$portal$1,generation=5]//ch.ivy.addon.portalkit.service.IvyAdapterService$SubProcessCallerCallable.call(IvyAdapterService.java:1)
+
+at ch.ivyteam.ivy.security.exec.Sudo.call(Sudo.java:65)
+
+at IvyProjectClassLoader [pmv=designer$portal$1,generation=5]//ch.ivy.addon.portalkit.service.IvyAdapterService.executeCallableAsSystem(IvyAdapterService.java:33)
+
+... 180 more
+
+Caused by: java.lang.IllegalArgumentException: Parameter subProcessStart must not be null
+
+at ch.ivyteam.api.API.checkParameterNotNull(API.java:47)
+
+at ch.ivyteam.ivy.process.call.SubProcessRunner.execute(SubProcessRunner.java:84)
+
+at IvyProjectClassLoader [pmv=designer$portal$1,generation=5]//ch.ivy.addon.portalkit.service.IvyAdapterService$SubProcessCallerCallable.call(IvyAdapterService.java:134)
+
+... 183 more
